@@ -1,11 +1,5 @@
 #include <iostream>
 
-int inc_1(int &n,int k)
-{
-	for (int i=1;i<=k;i++)
-		n++;
-}
-
 
 using namespace std;
 int main(){
@@ -14,6 +8,7 @@ int main(){
 	cin>>n;
 	cin>>k;
 
+	inc_1(n,k);
 	
 	cout<<n;
 }
