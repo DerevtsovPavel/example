@@ -14,6 +14,6 @@ int main(){
 	cin>>n;
 	cin>>k;
 
-	
+	inc_1(n,k);
 	cout<<n;
 }
